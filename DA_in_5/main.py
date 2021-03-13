@@ -4,10 +4,10 @@ from pandas_profiling import ProfileReport
 df = pd.read_csv('Capm.csv')
 
 
-#print(df)
+print(df)
 
 
-#Generate Report
+# Generate Report in 5 mins
 
 profile = ProfileReport(df)
 
