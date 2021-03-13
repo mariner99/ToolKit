@@ -17,6 +17,8 @@ git diff [first branch] [second branch] ->differences between the two branches m
 git reset [file] ->unstages the file, but it preserves the file contents.
 git reset [commit] ->undoes all the commits after the specified commit and preserves the changes locally.
 git reset –hard [commit] ->discards all history and goes back to the specified commit.
+git reset HEAD (Head~1 for going back one step further )
+git reset HEAD~1 (Head~1 for going back one step further )
 
 git status ->command lists all the files that have to be committed.
 
